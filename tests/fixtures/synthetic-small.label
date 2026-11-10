@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DesktopLabel Version="1">
+  <DYMOLabel Version="4">
+    <Description>DYMO Label</Description>
+    <Orientation>Landscape</Orientation>
+    <LabelName>Small1738541</LabelName>
+    <InitialLength>0</InitialLength>
+    <BorderStyle>SolidLine</BorderStyle>
+    <DYMORect>
+      <DYMOPoint>
+        <X>0.09</X>
+        <Y>0.056666665</Y>
+      </DYMOPoint>
+      <Size>
+        <Width>1.9766666</Width>
+        <Height>0.90333337</Height>
+      </Size>
+    </DYMORect>
+    <BorderThickness>1</BorderThickness>
+    <Show_Border>False</Show_Border>
+    <DynamicLayoutManager>
+      <RotationBehavior>ClearObjects</RotationBehavior>
+      <LabelObjects>
+        <TextObject>
+          <Name>TextObject0</Name>
+          <Rotation>Rotation0</Rotation>
+          <HorizontalAlignment>Left</HorizontalAlignment>
+          <VerticalAlignment>Top</VerticalAlignment>
+          <FormattedText>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>DOB- 01/01/2000 TEST PATIENT</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>5</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>DOC- 01/02/2000 EST</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>5</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+            <LineTextSpan>
+              <TextSpan>
+                <Text>RD-  Synthetic Test</Text>
+                <FontInfo>
+                  <FontName>Segoe UI</FontName>
+                  <FontSize>5</FontSize>
+                  <IsBold>False</IsBold>
+                  <IsItalic>False</IsItalic>
+                  <IsUnderline>False</IsUnderline>
+                </FontInfo>
+              </TextSpan>
+            </LineTextSpan>
+          </FormattedText>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.23093039</X>
+              <Y>0.06459125</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.6681391</Width>
+              <Height>0.88918203</Height>
+            </Size>
+          </ObjectLayout>
+        </TextObject>
+        <BarcodeObject>
+          <Name>BarcodeObject0</Name>
+          <Rotation>Rotation0</Rotation>
+          <BarcodeFormat>Code128Auto</BarcodeFormat>
+          <Data>
+            <MultiDataString>
+              <DataString></DataString>
+              <DataString></DataString>
+              <DataString></DataString>
+              <DataString>X00011122233S</DataString>
+            </MultiDataString>
+          </Data>
+          <HorizontalAlignment>Left</HorizontalAlignment>
+          <VerticalAlignment>Middle</VerticalAlignment>
+          <Size>AutoFit</Size>
+          <TextPosition>Bottom</TextPosition>
+          <FontInfo>
+            <FontName>Arial</FontName>
+            <FontSize>8</FontSize>
+            <IsBold>False</IsBold>
+            <IsItalic>False</IsItalic>
+            <IsUnderline>False</IsUnderline>
+          </FontInfo>
+          <ObjectLayout>
+            <DYMOPoint>
+              <X>0.23093039</X>
+              <Y>0.5409018</Y>
+            </DYMOPoint>
+            <Size>
+              <Width>1.5341527</Width>
+              <Height>0.41287157</Height>
+            </Size>
+          </ObjectLayout>
+        </BarcodeObject>
+      </LabelObjects>
+    </DynamicLayoutManager>
+  </DYMOLabel>
+</DesktopLabel>

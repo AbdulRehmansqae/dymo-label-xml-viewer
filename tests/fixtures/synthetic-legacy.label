@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Synthetic LEGACY DYMO Label Software fixture — placeholder data only,
+  safe to ship. Mirrors the structure of a real v8 DieCutLabel export:
+  geometry as ATTRIBUTES in root Units (twips), <StyledText> runs for
+  text, attribute-carried <TextFont> for the barcode, <Bounds> siblings
+  inside <ObjectInfo>, and label extents in <DrawCommands>.
+-->
+<DieCutLabel Version="8.0" Units="twips">
+  <PaperOrientation>Landscape</PaperOrientation>
+  <Id>SyntheticLegacyStock</Id>
+  <PaperName>Synthetic Legacy Test Label</PaperName>
+  <DrawCommands>
+    <RoundRectangle X="0" Y="0" Width="5760" Height="1728" CornerRadius="90" />
+  </DrawCommands>
+  <ObjectInfo>
+    <TextObject>
+      <Name>TEXT1</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+      <LinkedObjectName></LinkedObjectName>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>False</IsVariable>
+      <GroupID>-1</GroupID>
+      <IsOutlined>False</IsOutlined>
+      <HorizontalAlignment>Left</HorizontalAlignment>
+      <VerticalAlignment>Top</VerticalAlignment>
+      <TextFitMode>ShrinkToFit</TextFitMode>
+      <UseFullFontHeight>True</UseFullFontHeight>
+      <Verticalized>False</Verticalized>
+      <StyledText>
+        <Element>
+          <String xml:space="preserve">TEST PATIENT - LEGACY SAMPLE LINE</String>
+          <Attributes>
+            <Font Family="Arial" Size="12" Bold="False" Italic="False" Underline="False" Strikeout="False" />
+            <ForeColor Alpha="255" Red="0" Green="0" Blue="0" HueScale="100" />
+          </Attributes>
+        </Element>
+      </StyledText>
+    </TextObject>
+    <Bounds X="376" Y="540" Width="1500" Height="135" />
+  </ObjectInfo>
+  <ObjectInfo>
+    <BarcodeObject>
+      <Name>BARCODE</Name>
+      <ForeColor Alpha="255" Red="0" Green="0" Blue="0" />
+      <BackColor Alpha="0" Red="255" Green="255" Blue="255" />
+      <LinkedObjectName></LinkedObjectName>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <IsVariable>True</IsVariable>
+      <GroupID>-1</GroupID>
+      <IsOutlined>False</IsOutlined>
+      <Text>LEGACYTEST001</Text>
+      <Type>Code39</Type>
+      <Size>Medium</Size>
+      <TextPosition>Bottom</TextPosition>
+      <TextFont Family="Arial" Size="8" Bold="False" Italic="False" Underline="False" Strikeout="False" />
+      <CheckSumFont Family="Arial" Size="8" Bold="False" Italic="False" Underline="False" Strikeout="False" />
+      <TextEmbedding>None</TextEmbedding>
+      <ECLevel>0</ECLevel>
+      <HorizontalAlignment>Center</HorizontalAlignment>
+      <QuietZonesPadding Left="0" Top="0" Right="0" Bottom="0" />
+    </BarcodeObject>
+    <Bounds X="331" Y="953" Width="4530" Height="480" />
+  </ObjectInfo>
+  <ObjectInfo>
+    <ShapeObject>
+      <Name>SHAPE1</Name>
+      <Rotation>Rotation0</Rotation>
+      <IsMirrored>False</IsMirrored>
+      <GroupID>-1</GroupID>
+    </ShapeObject>
+    <Bounds X="5000" Y="200" Width="400" Height="400" />
+  </ObjectInfo>
+</DieCutLabel>
