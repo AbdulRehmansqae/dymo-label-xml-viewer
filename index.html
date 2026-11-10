@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DYMO Label XML Viewer | Free DYMO Label Viewer — View .label Files Online</title>
+    <meta name="description" content="DYMO Label XML Viewer is a free DYMO label viewer: view .label files online in your browser without DYMO software. This DYMO XML viewer opens both DYMO Connect DesktopLabel XML and legacy DYMO Label Software (DieCutLabel) files for LabelWriter and LabelManager printers, draws real Code 128 & Code 39 barcodes, and exports PNG & PDF at true label size. Files are processed locally — nothing is uploaded." />
+    <meta name="keywords" content="DYMO label viewer, DYMO XML viewer, .label file viewer, view .label files online, DesktopLabel XML, DieCutLabel, DYMO LabelWriter, DYMO LabelManager, view DYMO label online, DYMO barcode label, Code 128, Code 39, DYMO label editor, DYMO PNG PDF export" />
+    <!-- Google Search Console verification: after adding the property, replace the value below with the tag Google gives you and uncomment it.
+    <meta name="google-site-verification" content="PASTE_YOUR_VERIFICATION_CODE_HERE" />
+    -->
+    <meta name="author" content="Abdul Rehman" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0b5cad" />
+    <!-- Canonical: placeholder for the final GitHub Pages URL — update if the repo/domain changes -->
+    <link rel="canonical" href="https://abdulrehmansqae.github.io/dymo-label-xml-viewer/" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='3' y='6' width='26' height='20' rx='2' fill='white' stroke='%230b5cad' stroke-width='2'/%3E%3Crect x='7' y='10' width='3' height='12' fill='black'/%3E%3Crect x='12' y='10' width='2' height='12' fill='black'/%3E%3Crect x='16' y='10' width='4' height='12' fill='black'/%3E%3Crect x='22' y='10' width='2' height='12' fill='black'/%3E%3C/svg%3E" />
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="DYMO Label XML Viewer" />
+    <meta property="og:title" content="DYMO Label XML Viewer | Free DYMO Label Viewer — View .label Files Online" />
+    <meta property="og:description" content="View .label files online in your browser — DYMO Connect DesktopLabel and legacy DieCutLabel files for LabelWriter printers. Real Code 128 & Code 39 barcodes, PNG & PDF export, 100% private — files never leave your device." />
+    <meta property="og:url" content="https://abdulrehmansqae.github.io/dymo-label-xml-viewer/" />
+    <meta property="og:locale" content="en_US" />
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="DYMO Label XML Viewer | Free DYMO Label Viewer — View .label Files Online" />
+    <meta name="twitter:description" content="Free browser tool to view .label files online: DYMO Connect DesktopLabel and legacy DieCutLabel XML with real Code 128 / Code 39 barcodes. No upload — files are processed locally." />
+    <!-- Structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "DYMO Label XML Viewer",
+      "url": "https://abdulrehmansqae.github.io/dymo-label-xml-viewer/",
+      "description": "Free online DYMO label viewer and editor: view .label files online in the browser. Parses both DYMO Connect DesktopLabel XML and legacy DYMO Label Software DieCutLabel XML for LabelWriter printers, renders text and real Code 128 / Code 39 barcodes at accurate proportions, and exports PNG and PDF at true label size.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Any (web browser)",
+      "browserRequirements": "Requires a modern web browser with JavaScript enabled",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Parse and preview DYMO DesktopLabel XML (.label / .xml)",
+        "Parse legacy DYMO Label Software DieCutLabel / ContinuousLabel files (twips geometry converted to inches)",
+        "Label size from file geometry, the DYMO stock table, or a disclosed inferred size",
+        "Supports TextObject, BarcodeObject, FormattedText, FontInfo, ObjectLayout and rotation",
+        "Real Code 128 and Code 39 barcode generation with JsBarcode",
+        "Edit text and barcode values, drag and resize label objects",
+        "Zoom, fit-to-screen and 1:1 pixel-accurate preview",
+        "Export labels as PNG or PDF at true physical size",
+        "Copy or download the edited XML",
+        "Fully private: all processing happens locally in the browser"
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I open a DYMO .label file without DYMO software?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Upload the .label file or paste its XML into the DYMO Label XML Viewer and it is parsed and previewed in your browser — no DYMO Connect installation and no account needed." }
+        },
+        {
+          "@type": "Question",
+          "name": "Which DYMO files are supported?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Both DYMO file families: DYMO Connect files (a DesktopLabel document) and older DYMO Label Software v7/v8 files (DieCutLabel and ContinuousLabel, with ObjectInfo, Bounds and StyledText), used by LabelWriter 4xx and 5-series, LabelWriter Duo and Twin Turbo, LabelWriter Wireless, and LabelManager printers. Elements the viewer cannot draw are listed in a warnings panel and shown as placeholders instead of failing." }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does Labelary reject my DYMO file?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Labelary renders Zebra ZPL (files starting with ^XA). DYMO labels are a completely different XML format, which is what this DYMO XML viewer is built for." }
+        },
+        {
+          "@type": "Question",
+          "name": "Are the barcodes real and scannable?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes — barcodes are generated from the actual data in your file with JsBarcode: Code128Auto becomes a genuine Code 128, Code39 a genuine Code 39, and EAN, UPC, ITF, Codabar, MSI and pharmacode are mapped explicitly. A format that cannot be encoded in the browser is reported with a clear warning instead of being silently substituted." }
+        },
+        {
+          "@type": "Question",
+          "name": "Is my label data uploaded to a server?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. Everything runs locally in your browser. Label files — including any names, dates or accession barcodes on them — are never uploaded. Close the tab and the data is gone." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I print from here?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Export a PDF at the label's exact physical size and print that as a test, or download the edited XML and open it in DYMO Connect for final printing on your LabelWriter." }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      <h1>DYMO Label XML Viewer</h1>
+      <p>This free tool views and edits DYMO .label / DesktopLabel XML files in your browser. Please enable JavaScript to use it.</p>
+    </noscript>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

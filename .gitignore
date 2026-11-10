@@ -1,0 +1,7 @@
+node_modules
+dist
+.DS_Store
+*.local
+# Real DYMO exports contain patient data — never ship/commit
+test-fixtures/
+*.tsbuildinfo
