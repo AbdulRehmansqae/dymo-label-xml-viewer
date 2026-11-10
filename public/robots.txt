@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abdulrehmansqae.github.io/dymo-label-xml-viewer/sitemap.xml
